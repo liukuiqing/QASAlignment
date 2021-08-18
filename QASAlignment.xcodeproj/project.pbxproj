@@ -14,6 +14,8 @@
 		87C3295926CCDB1200A307FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87C3295826CCDB1200A307FC /* Assets.xcassets */; };
 		87C3295C26CCDB1200A307FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87C3295A26CCDB1200A307FC /* LaunchScreen.storyboard */; };
 		87C3295F26CCDB1200A307FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C3295E26CCDB1200A307FC /* main.m */; };
+		87C3296926CCDF1A00A307FC /* NSMutableAttributedString+dyVerticalAlignment.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C3296726CCDF1A00A307FC /* NSMutableAttributedString+dyVerticalAlignment.m */; };
+		87C3296C26CCE02400A307FC /* test_0@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87C3296B26CCE02400A307FC /* test_0@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,9 @@
 		87C3295B26CCDB1200A307FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		87C3295D26CCDB1200A307FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		87C3295E26CCDB1200A307FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		87C3296726CCDF1A00A307FC /* NSMutableAttributedString+dyVerticalAlignment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+dyVerticalAlignment.m"; sourceTree = "<group>"; };
+		87C3296826CCDF1A00A307FC /* NSMutableAttributedString+dyVerticalAlignment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+dyVerticalAlignment.h"; sourceTree = "<group>"; };
+		87C3296B26CCE02400A307FC /* test_0@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "test_0@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,17 +66,28 @@
 		87C3294B26CCDB1000A307FC /* QASAlignment */ = {
 			isa = PBXGroup;
 			children = (
+				87C3296626CCDEEC00A307FC /* QASAlignment */,
 				87C3294C26CCDB1000A307FC /* AppDelegate.h */,
 				87C3294D26CCDB1000A307FC /* AppDelegate.m */,
 				87C3294F26CCDB1000A307FC /* SceneDelegate.h */,
 				87C3295026CCDB1000A307FC /* SceneDelegate.m */,
 				87C3295226CCDB1000A307FC /* ViewController.h */,
 				87C3295326CCDB1000A307FC /* ViewController.m */,
+				87C3296B26CCE02400A307FC /* test_0@3x.png */,
 				87C3295526CCDB1000A307FC /* Main.storyboard */,
 				87C3295826CCDB1200A307FC /* Assets.xcassets */,
 				87C3295A26CCDB1200A307FC /* LaunchScreen.storyboard */,
 				87C3295D26CCDB1200A307FC /* Info.plist */,
 				87C3295E26CCDB1200A307FC /* main.m */,
+			);
+			path = QASAlignment;
+			sourceTree = "<group>";
+		};
+		87C3296626CCDEEC00A307FC /* QASAlignment */ = {
+			isa = PBXGroup;
+			children = (
+				87C3296826CCDF1A00A307FC /* NSMutableAttributedString+dyVerticalAlignment.h */,
+				87C3296726CCDF1A00A307FC /* NSMutableAttributedString+dyVerticalAlignment.m */,
 			);
 			path = QASAlignment;
 			sourceTree = "<group>";
@@ -135,6 +151,7 @@
 				87C3295C26CCDB1200A307FC /* LaunchScreen.storyboard in Resources */,
 				87C3295926CCDB1200A307FC /* Assets.xcassets in Resources */,
 				87C3295726CCDB1000A307FC /* Main.storyboard in Resources */,
+				87C3296C26CCE02400A307FC /* test_0@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +166,7 @@
 				87C3294E26CCDB1000A307FC /* AppDelegate.m in Sources */,
 				87C3295F26CCDB1200A307FC /* main.m in Sources */,
 				87C3295126CCDB1000A307FC /* SceneDelegate.m in Sources */,
+				87C3296926CCDF1A00A307FC /* NSMutableAttributedString+dyVerticalAlignment.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
