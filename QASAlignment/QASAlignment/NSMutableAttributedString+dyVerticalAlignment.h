@@ -8,6 +8,7 @@
 #import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
+
 typedef NS_ENUM(NSUInteger, dyVerticalAlignmentType) {
     dyVerticalAlignmentTypeBottom = 0,
     dyVerticalAlignmentTypeCenter = 1,
